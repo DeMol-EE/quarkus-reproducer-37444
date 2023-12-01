@@ -6,7 +6,7 @@ This is a reproducer for an issue with injecting an `Optional<List<String>>` con
 
 1. `mvn quarkus:dev`
 2. `curl http://localhost:8080/hello`
-3. Observe `injected: Optional[[a, b]]` as logger output (see application.properties)
+3. Observe `injected: Optional[[a, b]]` as logger output (value from application.properties)
 
 ## Broken flow
 
